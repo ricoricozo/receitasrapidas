@@ -8,8 +8,14 @@ function Menu (){
     return (
         <>
         <div className={styles.div1}>
-          <h1>Receitas Rapida</h1>
-          <Image src = "/frango2.png" width={100} height={70}/>
+          <div><h1>Receitas Rápidas</h1></div>
+          <div><p><Image src = "/frango2.png" width={200} height={105} className={styles.Image}/></p></div>
+          <div><input 
+            type="text"
+            id="pesquisa" 
+            name="pesquisa" 
+            value="Pesquisar receita" />
+          </div>
         </div>
       </>
     )
