@@ -1,35 +1,36 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 function Footer(){
     return (
         <>
         <footer className={styles.footer}>
-        <a
+        <Link
+          href="https://www.google.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contato</Link>
+
+
+        <Link
           href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contato</a>
-
-
-        <a
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sobre nós{' '}
+          <a>Sobre nós{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+          </span> </a>
+        </Link>
         
-        <a
+        <Link
           href= "https://www.instagram.com/henriquepsrr"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Intagram</a>
+          Instagram</Link>
       </footer>
         </>
     )
