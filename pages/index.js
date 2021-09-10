@@ -13,7 +13,7 @@ export default function Home() {
             <p>Seja bem-vindo </p>
             <h2>Receitas rápidas</h2>
             <h1>Site com receitas rápidas e divertidas</h1>
-            <a href="/home"><button className={styles.button}> CLIQUE PARA COZINHAR</button></a>
+            <Link href="/home"><a><button className={styles.button}> CLIQUE PARA COZINHAR</button></a></Link>
           </a>
 
           <Image src = "/fotoabertura.png" width={400} height={280}/>
