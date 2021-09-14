@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <div className={styles.grid}>
+        <div className={styles.grid1}>
 
           <a className={styles.card2}>
             <p>Seja bem-vindo </p>
-            <h2>Receitas rápidas</h2>
+            <h2>Receitas Rápidas</h2>
             <h1>Site com receitas rápidas e divertidas</h1>
             <Link href="/home"><a><button className={styles.button}> CLIQUE PARA COZINHAR</button></a></Link>
           </a>

@@ -42,30 +42,46 @@ function Receitas(){
         </p>
 
         <div className={styles.grid}>
-          <Link href="https://nextjs.org/docs" >
-            <a className={styles.card}><h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p></a>
+          <Link href="/" >
+            <a className={styles.card}>
+            <Image src = "/pimentao.jpg" width={400} height={280}/>
+            <h2>Pimentão &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="https://nextjs.org/learn" >
-            <a  className={styles.card}><h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p></a>
+          <Link href="/" >
+            <a  className={styles.card}>
+            <Image src = "/frangocosido.jpg" width={400} height={280}/>
+            <h2>Frango Cozido &rarr;</h2>
+            <p>Tradicionalmente deliciosa</p></a>
           </Link>
 
-          <Link
-            href="https://github.com/vercel/next.js/tree/master/examples"
-          >
-            <a className={styles.card}><h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
+          <Link href="/">
+            <a className={styles.card}>
+            <Image src = "/abobrinha.jpg" width={400} height={280}/>
+            <h2>Omelete de Forno de Abobrinha &rarr;</h2>
+            <p>MARAVILHOSA, mesmo sendo leve</p></a>
           </Link>
 
-          <Link
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          >
-            <a className={styles.card}><h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p></a>
+          <Link href="/">
+            <a className={styles.card}>
+            <Image src = "/brigadeiro.jpg" width={400} height={280}/>
+            <h2>Brigadeiro de Abacaxi &rarr;</h2>
+            <p>Um delicioso doce para ser feito para uma festa</p></a>
+          </Link>
+
+          <Link href="/">
+            <a className={styles.card}>
+            <Image src = "/brigadeiro.jpg" width={400} height={280}/>
+            <h2>Deploy &rarr;</h2>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p></a>
+          </Link>
+
+          <Link href="/">
+            <a className={styles.card}>
+            <Image src = "/brigadeiro.jpg" width={400} height={280}/>
+            <h2>Deploy &rarr;</h2>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p></a>
           </Link>
         </div>
       </main>
