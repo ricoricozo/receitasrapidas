@@ -2,6 +2,7 @@ import Menu from "../components/menu"
 import Image from 'next/image'
 import Link  from 'next/link'
 import styles from '../styles/Home.module.css'
+import Letrap from "../pages/letraP"
 
 
 function Receitas(){
@@ -24,7 +25,7 @@ function Receitas(){
           <Link href="/"> M</Link>
           <Link href="/"> N</Link>
           <Link href="/"> O</Link>
-          <Link href="/"> P</Link>
+          <Link href="/letraP"> P</Link>
           <Link href="/"> Q</Link>
           <Link href="/"> R</Link>
           <Link href="/"> S</Link>
@@ -72,16 +73,16 @@ function Receitas(){
 
           <Link href="/">
             <a className={styles.card}>
-            <Image src = "/brigadeiro.jpg" width={400} height={280}/>
-            <h2>Deploy &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p></a>
+            <Image src = "/abobrinharef.jpg" width={400} height={280}/>
+            <h2>Abobrinha Refogada &rarr;</h2>
+            <p>Light e essencial</p></a>
           </Link>
 
           <Link href="/">
             <a className={styles.card}>
-            <Image src = "/brigadeiro.jpg" width={400} height={280}/>
-            <h2>Deploy &rarr;</h2>
-            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p></a>
+            <Image src = "/sopafrango.jpg" width={400} height={280}/>
+            <h2>Sopa de frango Cremosa &rarr;</h2>
+            <p>Para dias mais chuvosos, com muito sabor</p></a>
           </Link>
         </div>
       </main>
