@@ -7,7 +7,7 @@ import Link from 'next/dist/client/link'
 function Home() {
   return (
     <>
-    <Menu />
+    <Menu/>
     <Receitas />
     <Footer />
     </>

@@ -10,27 +10,20 @@ function Footer(){
           href="https://www.google.com.br"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Contato</Link>
+        >Contato</Link>
 
 
         <Link
           href="/"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          <a>Sobre nós{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span> </a>
-        </Link>
+        >Sobre nós</Link>
         
         <Link
           href= "https://www.instagram.com/henriquepsrr"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Instagram</Link>
+        >Instagram</Link>
       </footer>
         </>
     )

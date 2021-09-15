@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 function Receitas(){
     return (
         <>
-           <main className={styles.main}>
+        <main className={styles.main}>
         <h1 className={styles.title}>
           <Link href="/"> A</Link> 
           <Link href="/"> B</Link>
@@ -42,10 +42,10 @@ function Receitas(){
         </p>
 
         <div className={styles.grid}>
-          <Link href="/" >
+          <Link href="/receitapimentao" >
             <a className={styles.card}>
             <Image src = "/pimentao.jpg" width={400} height={280}/>
-            <h2>Pimentão &rarr;</h2>
+            <h2>Pimentão Assado com Ovo&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 

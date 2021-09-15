@@ -1,10 +1,9 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link  from 'next/link'
 
 
-function Menu (){
+function Menu (res, req){
     return (
         <>
         <div className={styles.div1}>
