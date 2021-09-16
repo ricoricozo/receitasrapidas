@@ -50,7 +50,7 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="/" >
+          <Link href="/receitafrango" >
             <a  className={styles.card}>
             <Image src = "/frangocosido.jpg" width={400} height={280}/>
             <h2>Frango Cozido &rarr;</h2>

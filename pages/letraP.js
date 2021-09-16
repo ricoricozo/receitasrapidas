@@ -30,7 +30,7 @@ function Letrap() {
             <h2>Pimentão Assado com Ovo &rarr;</h2></a>
           </Link>
 
-          <Link href="/" >
+          <Link href="/receitapimentao2" >
             <a  className={styles.card}>
             <Image src = "/pimentaocottage.jpg" width={400} height={280}/>
             <h2>Pimentão Recheado com Queijo Cottage &rarr;</h2></a>
