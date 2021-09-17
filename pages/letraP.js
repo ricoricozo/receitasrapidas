@@ -11,7 +11,7 @@ function Letrap() {
     <main className={styles.main}>
         <h1>Beneficios do Pimentão</h1>
         <div className={styles.grid3}>
-            <div><Image src = "/pimentao1.png" width={450} height={350}/></div>
+            <div><Image src = "/Pimentao1.jpg" width={450} height={350}/></div>
             <div className={styles.tamanho}><p> Os benefícios do pimentão variam de acordo também com o seu grau de maturação. </p>
             <p>Quando verde, esse legume é rico em vitamina E, carotenoides e betacaroteno, que ajudam o organismo na prevenção de doenças tais como cataratas e câncer de próstata, de pulmão, de intestino e de garganta.</p>
             <p>Além desses benefícios é uma importante fonte de vitaminas:</p>
