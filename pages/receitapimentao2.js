@@ -26,7 +26,7 @@ function Pimenta2() {
           <li className={styles.h1p}>Sal à gosto</li>
           <li className={styles.h1p}>Pimenta do reino</li>
           <p className={styles.pp}>Modo de preparo</p>
-          <li className={styles.h1p}>Limpe o pimentao, corte o topo, remova o interior e faça uma "base" de queijo mussarela.</li>
+          <li className={styles.h1p}>Limpe o pimentao, corte o topo, remova o interior e faça uma base de queijo mussarela.</li>
           <li className={styles.h1p}>Em uma tigela, misture o queijo cottage, o molho de tomate, as ervas (eu usei manjericão e salsinha), sal e pimenta do reino à gosto.</li>
           <li className={styles.h1p}>Depois, coloque o recheio no pimentão e cubra com uma fatia de queijo muçarela. Leve ao forno por 20 minutos.</li>
         </div>
